@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     const typingElement = document.getElementById('typing');
-    const words = ["Web Developer", "Developer", "Web Designer", "Youtuber", "Blog Writer"," Freelancer"];
+    const words = ["Web Developer", "DevOps Engineer", "Web Designer", "Youtuber", "Blog Writer"," Freelancer"];
     let typingSpeed = 200; // Speed of typing in milliseconds
     let wordIndex = 0;
     let letterIndex = 0;
