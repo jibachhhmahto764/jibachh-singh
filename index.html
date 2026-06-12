@@ -1,146 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Portfolio Website</title>
-</head>
+    <title>Jibachh Singh | DevOps Engineer</title>
 
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
 <body>
 
 <header>
-
-    <a href="#" class="logo">jibachh Singh</a>
-
-    <div class="hamburger">
-        <i class="fas fa-bars"></i>
-    </div>
+    <a href="#" class="logo">Jibachh Singh</a>
 
     <nav>
-        <a href="#" class="active">Home</a>
-        <a href="#">Services</a>
-        <a href="#">Skills</a>
-        <a href="#">Education</a>
-        <a href="#">Experience</a>
-        <a href="#">Contact</a>
+        <a href="#home">Home</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
     </nav>
-
 </header>
 
-<section class="home">
+<section class="hero" id="home">
 
-    <div class="home-img">
-        <img src="main.png" alt="">
+    <div class="hero-content">
+
+        <div class="hero-badge">
+            <i class="fas fa-cloud"></i>
+            DevOps Engineer | Cloud Enthusiast
+        </div>
+
+        <h1>
+            Building
+            <span class="gradient-text">
+                Cloud Native
+            </span>
+            Infrastructure
+        </h1>
+
+        <p>
+            Passionate DevOps Engineer specializing in
+            Cloud Computing, Kubernetes, Docker, Terraform,
+            CI/CD Automation, and Infrastructure as Code.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#contact" class="btn-primary">
+                Hire Me
+            </a>
+
+            <a href="#projects" class="btn-secondary">
+                View Projects
+            </a>
+        </div>
+
     </div>
 
-    <div class="home-content">
-
-        <h1>Hello , I am <span>Jibachh Singh</span></h1>
-
-        <h3 class="typing-text">I'm a <span id="typing"></span></h3>
-
-        <!-- FIXED: removed broken nested HTML -->
-        <p>
-            A DevOps Engineer with a flair for streamlining operations through automation, CI/CD, and Cloud Computing. Over the past year, I’ve built strong hands-on experience in DevOps and modern cloud technologies.
-        </p>
-
-        <p>
-            My mission is to empower organizations with faster, more reliable software delivery while maintaining excellence and dependability.
-        </p>
-
-        <p>
-            I’m not just here to join a team — I’m here to elevate it. Let’s redefine what’s possible in DevOps and Cloud Computing.
-        </p>
-
-        <h2>📚 Tech Stack</h2>
-
-        <div class="box">
-            <ul>
-                <li>Source Code Management: Git, GitHub, GitLab, Bitbucket</li>
-                <li>Infrastructure as Code: Terraform</li>
-                <li>Containerization: Docker</li>
-                <li>Container Orchestration: Kubernetes, AWS ECS, Docker Swarm</li>
-                <li>Cloud Platforms: AWS, GCP, Azure</li>
-                <li>Configuration Management: Ansible</li>
-                <li>Automation & Scripting: Bash, Python</li>
-                <li>Monitoring & Logging: Prometheus, Grafana</li>
-                <li>CI/CD Tools: Jenkins</li>
-                <li>Security & Compliance: AWS IAM, HashiCorp Vault</li>
-                <li>Collaboration Tools: Slack, Teams, Jira, Confluence, Trello</li>
-                <li>Cloud Native Architecture: Microservices, Serverless, API Gateway, AWS Lambda</li>
-            </ul>
-        </div>
-
-        <div class="box">
-            <strong>Soft Skills:</strong>
-            <ul>
-                <li>Collaboration</li>
-                <li>Organization</li>
-                <li>Time Management</li>
-                <li>Leadership</li>
-            </ul>
-        </div>
-
-        <p>
-            I believe continuous learning is the key to staying relevant in modern application development.
-        </p>
-
-        <p>
-            🌐 Blog: <a href="https://jibachhsingh.hashnode.dev/" target="_blank">My Hashnode Blog</a>
-        </p>
-
-        <h2>🤝 Let's Connect</h2>
-
-        <div class="contact">
-            <p>Feel free to connect with me:</p>
-            <p>📧 Email: <a href="mailto:jibachhmahato8@gmail.com">jibachhmahato8@gmail.com</a></p>
-            <p>Let’s collaborate and build something impactful together 🚀</p>
-        </div>
-
-        <div class="section-title"><h2>🌐 Social Links</h2></div>
-
-        
-
-<div class="social">
-<p>
-    <a href="https://www.youtube.com/@jibachhSingh8112" target="_blank">
-        <i class="fa-brands fa-youtube"></i> YouTube!
-    </a>
-</p>
-    <p>
-    <a href="https://www.linkedin.com/in/jibachh-singh/" target="_blank">
-        <i class="fa-brands fa-linkedin"></i> LinkedIn
-    </a>
-</p>
-    <a href="https://www.facebook.com/jibachh.singh.3956" target="_blank">
-        <i class="fa-brands fa-facebook"></i> Facebook
-    </a>
-<p>
-    <a href="https://github.com/JibachhhMahto764" target="_blank">
-        <i class="fa-brands fa-github"></i> GitHub
-    </a>
-</p>
-    <p>
-         <a href="https://x.com/Jibachhsingh14" target="_blank">
-        <i class="fa-brands fa-x-twitter"></i> Twitter / X
-    </a>
-    </p>
-   
-<p>
-    <a href="https://www.instagram.com/jibachh.singh/" target="_blank">
-        <i class="fa-brands fa-instagram"></i> Instagram
-    </a>
-</p>
-</div>
-
-    
+    <div class="hero-image">
+        <img src="main.png" alt="Profile">
+    </div>
 
 </section>
 
-<script src="script.js"></script>
+<section class="stats">
+
+    <div class="stat-card">
+        <h2>20+</h2>
+        <p>Projects</p>
+    </div>
+
+    <div class="stat-card">
+        <h2>15+</h2>
+        <p>Technologies</p>
+    </div>
+
+    <div class="stat-card">
+        <h2>5+</h2>
+        <p>Certifications</p>
+    </div>
+
+    <div class="stat-card">
+        <h2>24/7</h2>
+        <p>Learning</p>
+    </div>
+
+</section>
+
+<section id="skills">
+
+    <h2 class="section-title">Tech Stack</h2>
+
+    <div class="skills-grid">
+
+        <div class="skill-card">
+            <i class="fab fa-docker"></i>
+            <h3>Docker</h3>
+        </div>
+
+        <div class="skill-card">
+            <i class="fas fa-dharmachakra"></i>
+            <h3>Kubernetes</h3>
+        </div>
+
+        <div class="skill-card">
+            <i class="fab fa-aws"></i>
+            <h3>AWS</h3>
+        </div>
+
+        <div class="skill-card">
+            <i class="fas fa-code-branch"></i>
+            <h3>Terraform</h3>
+        </div>
+
+        <div class="skill-card">
+            <i class="fab fa-jenkins"></i>
+            <h3>Jenkins</h3>
+        </div>
+
+        <div class="skill-card">
+            <i class="fab fa-git-alt"></i>
+            <h3>Git</h3>
+        </div>
+
+        <div class="skill-card">
+            <i class="fas fa-chart-line"></i>
+            <h3>Prometheus</h3>
+        </div>
+
+        <div class="skill-card">
+            <i class="fas fa-terminal"></i>
+            <h3>Bash</h3>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="projects">
+
+    <h2 class="section-title">
+        Featured Projects
+    </h2>
+
+    <div class="project-grid">
+
+        <div class="project-card">
+            <h3>Online Quiz System</h3>
+
+            <p>
+                Laravel based quiz platform with user authentication,
+                analytics and dashboard.
+            </p>
+
+            <a href="#">View Project</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Hospital Management System</h3>
+
+            <p>
+                Complete healthcare management platform
+                with multiple modules.
+            </p>
+
+            <a href="#">View Project</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Event Management System</h3>
+
+            <p>
+                Event booking and management solution
+                with admin panel.
+            </p>
+
+            <a href="#">View Project</a>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="contact">
+
+    <h2 class="section-title">Let's Connect</h2>
+
+    <div class="contact-card">
+
+        <p>
+            Email:
+            <a href="mailto:jibachhmahato8@gmail.com">
+                jibachhmahato8@gmail.com
+            </a>
+        </p>
+
+        <div class="social-links">
+
+            <a href="#">
+                <i class="fab fa-github"></i>
+            </a>
+
+            <a href="#">
+                <i class="fab fa-linkedin"></i>
+            </a>
+
+            <a href="#">
+                <i class="fab fa-youtube"></i>
+            </a>
+
+            <a href="#">
+                <i class="fab fa-x-twitter"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
 
 </body>
 </html>
